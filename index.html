@@ -31,7 +31,7 @@
       margin: 40px 0;
     }
     .section h2 {
-      margin-bottom: 10px;
+      margin-bottom: 15px;
       font-size: 1.5rem;
     }
     .links a {
@@ -39,6 +39,21 @@
       margin-right: 15px;
       text-decoration: none;
       color: #38bdf8;
+    }
+    .credits-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .credit-box {
+      background: #111827;
+      padding: 15px;
+      border-radius: 8px;
+    }
+    .credit-box h3 {
+      margin-top: 0;
+      font-size: 1.1rem;
+      color: #93c5fd;
     }
     footer {
       text-align: center;
@@ -52,7 +67,7 @@
 
 <header>
   <h1>Escape The Backrooms In Minecraft</h1>
-  <p>A fan-made project inspired by the Backrooms concept, built within Minecraft.</p>
+  <p>A standalone commercial project inspired by Backrooms-style experiences, built within Minecraft.</p>
 </header>
 
 <div class="container">
@@ -60,40 +75,56 @@
   <div class="section">
     <h2>About</h2>
     <p>
-      This is a placeholder description for your project. Explain what players can expect,
-      the gameplay mechanics, and what makes your version unique. Keep it brief and engaging.
+      Replace this with your project description. Outline the gameplay, tone, features,
+      and what makes your version distinct. Keep it concise and clear.
     </p>
   </div>
 
   <div class="section">
     <h2>Links</h2>
     <div class="links">
-      <a href="#">Download</a>
+      <a href="#">Buy / Download</a>
       <a href="#">Trailer</a>
-      <a href="#">GitHub</a>
+      <a href="#">Updates</a>
       <a href="#">Community</a>
     </div>
   </div>
 
   <div class="section">
     <h2>Credits</h2>
-    <p>
-      Project Lead: Your Name<br>
-      Developers: Team Members<br>
-      Builders/Designers: Team Members<br>
-      Additional Assets: Used under their respective licenses
-    </p>
+    <div class="credits-grid">
+      <div class="credit-box">
+        <h3>Project Lead</h3>
+        <p>Your Name</p>
+      </div>
+      <div class="credit-box">
+        <h3>Head Programmer</h3>
+        <p>Name</p>
+      </div>
+      <div class="credit-box">
+        <h3>Playtesters</h3>
+        <p>Names</p>
+      </div>
+      <div class="credit-box">
+        <h3>Contributors</h3>
+        <p>Names</p>
+      </div>
+      <div class="credit-box">
+        <h3>Special Thanks</h3>
+        <p>Names or communities</p>
+      </div>
+    </div>
   </div>
 
 </div>
 
 <footer>
   <p>
-    This project is a non-commercial fan creation. Minecraft is a trademark of Mojang Studios.
-    The Backrooms concept is credited to its original creators. No copyright infringement intended.
+    © 2026 Your Name / Studio. All rights reserved.
   </p>
   <p>
-    Content on this site is shared under applicable free-use or open licenses unless otherwise stated.
+    This project is not affiliated with, endorsed by, or connected to Fancy or Mojang Studios.
+    “Escape The Backrooms” is a game by Fancy. Minecraft is a trademark of Mojang Studios.
   </p>
 </footer>
 
